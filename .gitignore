@@ -1,0 +1,3 @@
+*.suo
+/src/wilhelm/bin
+/src/wilhelm/obj
