@@ -38,6 +38,7 @@
             // 
             // notifyIcon
             // 
+            this.notifyIcon.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
             this.notifyIcon.Text = "wilhelm";
             this.notifyIcon.Visible = true;

@@ -14,6 +14,8 @@ namespace wilhelm
         public NotifyIconWrapper()
         {
             InitializeComponent();
+            this.toolStripMenuItem_Open.Click += this.toolStripMenuItem_Open_Click;
+            this.toolStripMenuItem_Exit.Click += this.toolStripMenuItem_Exit_Click;
         }
 
         public NotifyIconWrapper(IContainer container)
