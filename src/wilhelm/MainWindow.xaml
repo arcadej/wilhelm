@@ -1,6 +1,6 @@
 ﻿<Window x:Class="wilhelm.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="WILhelm" Height="65" Width="519" FontFamily="Mgen+ 1m medium" Opacity="0.8" WindowStyle="ToolWindow" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" IsEnabled="False">
+        Title="WILhelm" Height="65" Width="519" FontFamily="Mgen+ 1m medium" Opacity="0.8" WindowStyle="ToolWindow" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" IsEnabled="False" Visibility="Visible" Icon="Resources/wilhelm.ico">
     <ComboBox x:Name="SearchText" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="513"/>
 </Window>
